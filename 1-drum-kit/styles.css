@@ -1,0 +1,37 @@
+.drum-kit {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.drum-kit__component {
+    text-align: center;
+}
+
+.drum-kit__component__keyboard {
+    font-size: x-large;
+}
+
+.drum-kit__component__box {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    transition: all .07s;
+}
+
+.drum-kit__component__box__instrument {
+    max-width: 50%;
+    max-height: 50%;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.play {
+    transform: scale(1.1);
+    border-color: red;
+}
