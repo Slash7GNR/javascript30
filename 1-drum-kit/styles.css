@@ -24,6 +24,7 @@
 }
 
 .drum-kit__component__box {
+    position: relative;
     width: 50px;
     height: 50px;
     border-style: solid;
@@ -33,8 +34,7 @@
 .drum-kit__component__box__instrument {
     max-width: 50%;
     max-height: 50%;
-    position: relative;
-    float: left;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
