@@ -94,7 +94,7 @@ const instruments = [{
 }, {
     keyCode: 83,
     keyValue: 'S',
-    imageSource: 'images/hihat2.jpg',
+    imageSource: 'images/hihat.jpg',
     audioSource: 'sounds/hihat.wav'
 }, {
     keyCode: 68,
