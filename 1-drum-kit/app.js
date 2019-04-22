@@ -134,6 +134,6 @@ const instruments = [{
 }];
 createAllInstruments();
 addBoxesEventListeners();
-window.addEventListener('keydown', (key) => {
-    playByKeyCode(key.keyCode);
+window.addEventListener('keydown', (event) => {
+    playByKeyCode(event.keyCode);
 });
